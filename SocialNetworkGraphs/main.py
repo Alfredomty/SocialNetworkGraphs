@@ -9,7 +9,6 @@ from graph_generator import GraphGenerator
 from algos import Algos
 from plot import Plot
 from graph_attributes import Attributes
-##ATTRIBUTES##
 
 
 def print_main_menu():
@@ -174,8 +173,8 @@ def submenu_plot(type):
     
 if __name__ == "__main__":
     #These variables are left outside the loop so they carry over within menu items 
-    G,n,valuations, prices,assignment,payoffs,shortest_path = None
-    plot_shortest,plot_cluster,plot_neighbor = False
+    G,n,valuations, prices,assignment,payoffs,shortest_path = None,None,None,None,None,None,None
+    plot_shortest,plot_cluster,plot_neighbor = False,False,False
     p = 0
     
     while True:
